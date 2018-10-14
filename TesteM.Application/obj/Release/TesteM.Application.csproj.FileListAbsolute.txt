@@ -1,0 +1,15 @@
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\TesteM.Application.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\TesteM.Application.pdb
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\AutoMapper.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\SimpleInjector.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\System.ValueTuple.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\TesteM.Domain.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\TesteM.Domain.pdb
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\AutoMapper.pdb
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\AutoMapper.xml
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\SimpleInjector.xml
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\bin\Release\System.ValueTuple.xml
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\obj\Release\TesteM.Application.csprojResolveAssemblyReference.cache
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\obj\Release\TesteM.Application.csproj.CoreCompileInputs.cache
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\obj\Release\TesteM.Application.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Application\obj\Release\TesteM.Application.pdb
