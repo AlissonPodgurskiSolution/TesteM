@@ -1,0 +1,5 @@
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Domain\bin\Debug\TesteM.Domain.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Domain\bin\Debug\TesteM.Domain.pdb
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Domain\obj\Debug\TesteM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Domain\obj\Debug\TesteM.Domain.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Domain\obj\Debug\TesteM.Domain.pdb

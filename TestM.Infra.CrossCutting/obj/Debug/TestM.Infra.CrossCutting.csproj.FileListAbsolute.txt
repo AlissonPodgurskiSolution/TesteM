@@ -1,0 +1,5 @@
+C:\Users\aliss\Desktop\TesteM\TesteM\TestM.Infra.CrossCutting\bin\Debug\TestM.Infra.CrossCutting.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TestM.Infra.CrossCutting\bin\Debug\TestM.Infra.CrossCutting.pdb
+C:\Users\aliss\Desktop\TesteM\TesteM\TestM.Infra.CrossCutting\obj\Debug\TestM.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\aliss\Desktop\TesteM\TesteM\TestM.Infra.CrossCutting\obj\Debug\TestM.Infra.CrossCutting.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TestM.Infra.CrossCutting\obj\Debug\TestM.Infra.CrossCutting.pdb

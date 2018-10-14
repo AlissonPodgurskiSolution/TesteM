@@ -1,0 +1,45 @@
+﻿@model IList<TesteM.Application.ViewModels.ServicoPrestadoViewModel>
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <table id="tbServicoPrestadoRelatorio" class="table table-bordered table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th>Cliente</th>
+                                    <th>Bairro</th>
+                                    <th>Cidade</th>
+                                    <th>Estado</th>
+                                    <th>Tipo Serviço</th>
+                                    <th>Fornecedor</th>
+                                    <th>Valor(R$)</th>
+                                    <th>Data Atendimento</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.ClienteFornecedor.Cliente.Nome</td>
+                                        <td>@item.ClienteFornecedor.Cliente.Bairro</td>
+                                        <td>@item.ClienteFornecedor.Cliente.Cidade</td>
+                                        <td>@item.ClienteFornecedor.Cliente.Estado</td>
+                                        <td>@item.TipoServico.Id - @item.TipoServico.Tipo</td>
+                                        <td>@item.ClienteFornecedor.Fornecedor.Nome</td>
+                                        <td>@item.ValorServico</td>
+                                        <td>@item.DataAtendimentoddMMyyyy</td>
+                                    </tr>
+                                }
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

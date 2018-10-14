@@ -1,0 +1,15 @@
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\TesteM.Infra.Data.dll.config
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\TesteM.Infra.Data.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\TesteM.Infra.Data.pdb
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\TesteM.Domain.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\TesteM.Domain.pdb
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\obj\Debug\TesteM.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\obj\Debug\TesteM.Infra.Data.Migrations.Initial.resources
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\obj\Debug\TesteM.Infra.Data.csproj.GenerateResource.Cache
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\obj\Debug\TesteM.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\obj\Debug\TesteM.Infra.Data.dll
+C:\Users\aliss\Desktop\TesteM\TesteM\TesteM.Infra.Data\obj\Debug\TesteM.Infra.Data.pdb

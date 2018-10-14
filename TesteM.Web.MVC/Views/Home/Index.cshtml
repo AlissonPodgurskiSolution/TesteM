@@ -1,0 +1,125 @@
+﻿@using System.Globalization
+@model TesteM.Web.MVC.Models.HomeViewModel
+
+<h2 style="text-align: center">Quadro de Informações</h2>
+
+<div class="row">
+    <div class="col-md-4" style="overflow: scroll;height: 700px;">
+        <h4 style="text-align: center">Os 3 clientes que mais gastaram em serviços por mês no ano atual </h4>
+        <table class="table table-bordered table-striped table-hover" id="idListaQuadroInformacoesTresClientesMaisGastaramMesViewModel">
+            <thead>
+            <tr>
+                <th scope="col">Mês</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">Valor Total (R$)</th>
+            </tr>
+            </thead>
+            <tbody>
+            @for (var mes = 1; mes < 13; mes++)
+            {
+                var count = 0;
+                if (Model.ListaQuadroInformacoesTresClientesMaisGastaramMesViewModel.Where(x => x.Mes == mes).FirstOrDefault() == null)
+                {
+                    <tr>
+                        <td>@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(mes).ToUpper()</td>
+                        <td>SEM CLIENTES</td>
+                        <td></td>
+                    </tr>
+                    continue;
+                }
+                foreach (var item in Model.ListaQuadroInformacoesTresClientesMaisGastaramMesViewModel.Where(x => x.Mes == mes))
+                {
+                    if (count == 0)
+                    {
+                        <tr>
+                            <td rowspan="@Model.ListaQuadroInformacoesTresClientesMaisGastaramMesViewModel.Where(x => x.Mes == mes).Count()" style="vertical-align: middle;">@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(mes).ToUpper()</td>
+                            <td >@item.Nome</td>
+                            <td>R$ @item.ValorTotal</td>
+                        </tr>
+                        count++;
+                    }
+                    else
+                    {
+                        <tr>
+                            <td>@item.Nome</td>
+                            <td>R$ @item.ValorTotal</td>
+                        </tr>
+                    }
+                }
+            }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-4" style="overflow: scroll;height: 700px;">
+        <h4 style="text-align: center">Média de valor cobrado por fornecedor e tipo de serviço </h4>
+        <table class="table table-bordered table-striped table-hover" id="idListaQuadroInformacoesTresFornecedoreMesMedia">
+            <thead>
+            <tr>
+                <th scope="col">Tipo Serviço</th>
+                <th scope="col">Fornecedor</th>
+                <th scope="col">Valor Total (R$)</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model.ListaQuadroInformacoesTresFornecedoreMesMedia.OrderBy(x => x.ValorTotal))
+            {
+                <tr>
+                    <td style="vertical-align: middle;">@item.TipoServico</td>
+                    <td >@item.Fornecedor</td>
+                    <td>R$ @item.ValorTotal</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-4" style="overflow: scroll;height: 700px;">
+        <h4 style="text-align: center">Lista de fornecedores sem prestar atendimento por mês no ano atual</h4>
+        <table class="table table-striped table-bordered" >
+            <thead>
+            <tr>
+                <th scope="col">Mês</th>
+                <th scope="col">Fornecedor</th>
+            </tr>
+            </thead>
+            <tbody >
+            @for (var mes = 1; mes < 13; mes++)
+            {
+                var count = 0;
+                if (Model.ListaFornecedorMesNaoTrabalhadoViewModel.Where(x => x.Mes == mes).FirstOrDefault() == null)
+                {
+                    <tr>
+                        <td>@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(mes).ToUpper()</td>
+                        <td>TODOS TIVERAM SERVIÇO</td>
+                        <td></td>
+                    </tr>
+                    continue;
+                }
+                foreach (var item in Model.ListaFornecedorMesNaoTrabalhadoViewModel.Where(x => x.Mes == mes))
+                {
+                    if (count == 0)
+                    {
+                        <tr>
+                            <td rowspan="@Model.ListaFornecedorMesNaoTrabalhadoViewModel.Where(x => x.Mes == mes).Count()" style="vertical-align: middle;">@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(mes).ToUpper()</td>
+                            <td>@item.Fornecedor</td>
+                        </tr>
+                        count++;
+                    }
+                    else
+                    {
+                        <tr>
+                            <td>@item.Fornecedor</td>
+                        </tr>
+                    }
+                }
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+
+
+</script>
