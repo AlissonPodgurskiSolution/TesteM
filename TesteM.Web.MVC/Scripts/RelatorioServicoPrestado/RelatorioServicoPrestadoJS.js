@@ -84,7 +84,7 @@ $(document).ready(function() {
 
             return isNaN(value) && isNaN($(params).val())
                 || (Number(value) > Number($(params).val()));
-        }, 'O Periodo De deve ser Maior que o Periodo Até');
+        }, 'O Periodo Até deve ser Maior que o Periodo De');
 
 
     //$("#idPeriodoAte").rules('add', { greaterThan: "#idPeriodoDe" });
