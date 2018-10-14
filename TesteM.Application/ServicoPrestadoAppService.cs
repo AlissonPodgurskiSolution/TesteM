@@ -159,7 +159,7 @@ namespace TesteM.Application
                     new {x.TipoServico.Tipo, x.ClienteFornecedor.Fornecedor.Nome})
                 .Select(x => new QuadroInformacoesFornecedorTipoServicoViewModel
                 {
-                    ValorTotal = x.Average(c => c.ValorServico).ToString("N3"),
+                    ValorTotal = x.Average(c => c.ValorServico).ToString("N2"),
                     TipoServico = x.Key.Tipo,
                     Fornecedor = x.Key.Nome
                 }).OrderBy(x => x.Fornecedor)
